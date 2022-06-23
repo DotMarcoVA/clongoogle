@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(32, 33, 36);
+}
+/* Header */
+
+header {
+    height: 48px;
+}
+.section1 {
+    display: flex;
+    z-index: 10;
+    justify-content: flex-end;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.enlaces_nav {
+    padding: 15px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.enlaces_nav:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+
+.clogo {
+    max-height: 92px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#logo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.busquedabotones {
+    padding: 20px;
+    max-height: 140px;
+}
+
+.botones {
+    display: flex;
+    height: 58px;
+    justify-content: center;
+}
+
+#search {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#lucky {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.btn-search {
+    max-height: 36px;
+}
+
+.btn-search p {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 0.6em;
+}
+
+center {
+    max-height: 58px;
+}
+
+.idioma {
+    max-height: 28px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #bdc1c6;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.idioma a {
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: arial, sans-serif;
+    font-family: arial, sans-serif;
+    background-color: rgb(23, 23, 23);
+    height: 46px;
+}
+
+.fizquierda {
+    display: flex;
+}
+
+.fderecha {
+    display: flex;
+}
+
+.enlaces_footer {
+    padding: 15px;
+    color: #bdc1c6;
+    text-decoration: none;
+}
+
+.enlaces_footer:hover {
+    text-decoration: underline;
+}

@@ -95,9 +95,17 @@ nav {
     margin-right: 4px;
 }
 
+#search:hover {
+    border: 1px solid #5f6368;
+}
+
 #lucky {
     margin-left: 4px;
     margin-right: 4px;
+}
+
+#lucky:hover {
+    border: 1px solid #5f6368;
 }
 
 .btn-search {
